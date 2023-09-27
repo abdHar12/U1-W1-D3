@@ -62,10 +62,11 @@ header .undertitle h4 span {
   margin-top: 80px;
 }
 
-.recipe img {
+.recipe video {
   width: 100%;
   margin-top: 40px;
   border-radius: 16px;
+  box-shadow: 0 8px 12px -4px #000000fa;
 }
 
 .recipe figcaption {
@@ -78,10 +79,14 @@ header .undertitle h4 span {
   color: orange;
 }
 
+.featured-in p {
+  position: relative;
+  left: 20px;
+}
+
 .featured-in {
   border-left: 5px solid gold;
   height: auto;
-  left: 50%;
 }
 
 .under-ingredients {
